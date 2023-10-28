@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-28T23:06:12 IST" name="Gradle suite" finished-at="2023-10-28T23:06:30 IST" duration-ms="18113">
+    <groups>
+      <group name="API Tests">
+        <method signature="testCase_API_01.TestCase01()[pri:1, instance:qtriptest.APITests.testCase_API_01@5e600dd5]" name="TestCase01" class="qtriptest.APITests.testCase_API_01"/>
+        <method signature="testCase_API_02.testCitySearchResultCount()[pri:2, instance:qtriptest.APITests.testCase_API_02@2e6a8155]" name="testCitySearchResultCount" class="qtriptest.APITests.testCase_API_02"/>
+        <method signature="testCase_API_03.verifyReservationCanBeMade()[pri:3, instance:qtriptest.APITests.testCase_API_03@6221a451]" name="verifyReservationCanBeMade" class="qtriptest.APITests.testCase_API_03"/>
+        <method signature="testCase_API_04.testCase04()[pri:4, instance:qtriptest.APITests.testCase_API_04@52719fb6]" name="testCase04" class="qtriptest.APITests.testCase_API_04"/>
+      </group> <!-- API Tests -->
+    </groups>
+    <test started-at="2023-10-28T23:06:12 IST" name="Gradle test" finished-at="2023-10-28T23:06:30 IST" duration-ms="18113">
+      <class name="qtriptest.APITests.testCase_API_01">
+        <test-method signature="TestCase01()[pri:1, instance:qtriptest.APITests.testCase_API_01@5e600dd5]" started-at="2023-10-28T23:06:16 IST" name="TestCase01" finished-at="2023-10-28T23:06:23 IST" duration-ms="6779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase01 -->
+      </class> <!-- qtriptest.APITests.testCase_API_01 -->
+      <class name="qtriptest.APITests.testCase_API_02">
+        <test-method signature="testCitySearchResultCount()[pri:2, instance:qtriptest.APITests.testCase_API_02@2e6a8155]" started-at="2023-10-28T23:06:23 IST" name="testCitySearchResultCount" finished-at="2023-10-28T23:06:24 IST" duration-ms="1493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCitySearchResultCount -->
+      </class> <!-- qtriptest.APITests.testCase_API_02 -->
+      <class name="qtriptest.APITests.testCase_API_03">
+        <test-method signature="verifyReservationCanBeMade()[pri:3, instance:qtriptest.APITests.testCase_API_03@6221a451]" started-at="2023-10-28T23:06:24 IST" name="verifyReservationCanBeMade" finished-at="2023-10-28T23:06:27 IST" duration-ms="2698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReservationCanBeMade -->
+      </class> <!-- qtriptest.APITests.testCase_API_03 -->
+      <class name="qtriptest.APITests.testCase_API_04">
+        <test-method signature="testCase04()[pri:4, instance:qtriptest.APITests.testCase_API_04@52719fb6]" started-at="2023-10-28T23:06:27 IST" name="testCase04" finished-at="2023-10-28T23:06:30 IST" duration-ms="2796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase04 -->
+      </class> <!-- qtriptest.APITests.testCase_API_04 -->
+      <class name="qtriptest.tests.testCase_01">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:qtriptest.tests.testCase_01@117159c0]" started-at="2023-10-28T23:06:12 IST" name="createDriver" finished-at="2023-10-28T23:06:16 IST" duration-ms="4223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:qtriptest.tests.testCase_01@117159c0]" started-at="2023-10-28T23:06:30 IST" name="quitDriver" finished-at="2023-10-28T23:06:30 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- qtriptest.tests.testCase_01 -->
+    </test> <!-- Gradle test -->
+  </suite> <!-- Gradle suite -->
+</testng-results>
