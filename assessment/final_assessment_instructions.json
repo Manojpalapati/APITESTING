@@ -3,7 +3,7 @@
         {
             "assesmentDescription":"Verify that all 4 test cases have passed",
             "find":".//test-method[@status='PASS']",
-            "expectedCount":4,
+            "expectedCount":6,
             "errorMessage":"All 4 API test cases havent passed"
         },
         {
